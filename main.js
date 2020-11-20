@@ -16,17 +16,14 @@ var app = new Vue({
     }, // chiudo data
 
     mounted(){
-        if (this.emails.length < 10) {
             for (var i = 0; i < 10; i++) {
                 axios
                     .get('https://flynn.boolean.careers/exercises/api/random/mail')
-                    .then((response) => {
-                        this.emails.push(response.data.response);
+                    .then((pippo) => {
+                        this.emails.push(pippo.data.response);
                     });
                 }
 
-        }
-
-    }// chiudo methodss
+    }// chiudo mounted
 
 }); // chiudo Vue
