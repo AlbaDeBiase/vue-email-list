@@ -10,7 +10,11 @@
     </head>
     <body>
         <div id="container">
-            <h1>{{mail}}</h1>
+            <ul v-for="email in emails">
+                <li>
+                    {{email}}
+                </li>
+            </ul>
         </div>
 
         <script src="main.js" charset="utf-8"></script>
