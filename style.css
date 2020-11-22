@@ -1,0 +1,165 @@
+.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+body {
+    font-family: "Titillium Web",Helvetica,Arial,sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background-color: #00364d;
+    padding-bottom: 36px;
+}
+
+.listaMail li {
+    list-style-type: none;
+    color:black;
+    font-family: arial;
+
+}
+
+.listaMail:first-child {
+    padding-top:20px;
+}
+
+.listaMail:last-child {
+    padding-bottom:20px;
+}
+
+.logo {
+    width: 100px;
+    margin: 10px;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.search{
+    width: 70%;
+    align-self: center;
+    padding: 10px;
+    font-size: 16px;
+
+}
+.fa-user-alt:before {
+    content: "\f406";
+}
+
+.buttonSearch{
+    align-self: center;
+    background-color: #007db3;
+    border-color: #00405c;
+    width: 10%;
+    height: 10%;
+    margin-left: 10px;
+    padding: 12px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.buttonSearch:hover {
+    background: #006b9a;
+    border-color: #00405c;
+}
+
+.bg-light {
+    background-color: #005980!important;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.titoloSezione {
+    color: white;
+    /* align-self: flex-start; */
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size:30px;
+}
+
+#titoloLista {
+
+    padding:20px;
+}
+
+.sezioneEvidenza{
+    background-image: url("https://www.inps.it/docallegatiNP/Mig/Immagini_News/prestazioni-covid-05.jpg");
+    margin-top: 15px;
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+.mail{
+    background-color: white;
+    width: 50%;
+    margin-left: 40px;
+    border-radius: 8px;
+}
+
+/* .mail:hover {
+    border: 3px solid blue;
+    transition: 1s;
+} */
+
+.linea {
+  width: 10px;
+  height: 10px;
+  background:#007db3;
+  transition: 2s;
+}
+
+.linea:hover {
+  width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #2d3439;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 50px;
+    /* background-color:white; */
+    align-self: center;
+    margin:10px;
+}
+
+#urlSito, #copyright {
+    color: white;
+    align-self: center;
+    opacity: 0.5;
+
+}
+
+#urlSito {
+    padding-right:20px;
+}
+
+.notizie {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    flex-direction: column;
+
+}
