@@ -46,32 +46,42 @@
             </nav>
 <!-- fine navbar -->
         </div>
+        <div class="sezioneTitolo">
+            <h1 class="">In evidenza:</h1>
+        </div>
         <div id="container">
-            <h1 class="titoloSezione">In evidenza:</h1>
                 <div class="sezioneEvidenza">
-                    <h2 id="titoloLista">Gli assegnatari del bonus "Studenti 2020" sono:</h2>
-                        <div class="mail">
-                            <div class="linea">
-                            </div>
-                            <ul class="listaMail" v-for="email in emails">
-                                <li>
-                                    {{email}}
-                                </li>
-                            </ul>
+                    <div class="mail">
+                        <div class="linea">
                         </div>
+                            <p class="titoloNotizia">Notizia</p>
+                            <h2 class="testoNotizia">Gli assegnatari del bonus "Studenti 2020" sono:</h2>
+                                <ul class="listaMail" v-for="email in emails">
+                                    <li>
+                                        {{email}}
+                                    </li>
+                                </ul>
+                    </div>
                 </div>
-                <!-- <div class="notizie">
-
-                </div> -->
-                <!-- <div class="notizie">
-
+                <div class="sezioneNotizie">
+                    <div class="notizie">
+                        <p class="titoloNotizia">Notizia</p>
+                        <p class="testoNotizia">CIG: i dati INPS aggiornati al 18 novembre 2020</p>
+                    </div>
+                    <div class="notizie">
+                        <p class="titoloNotizia">Notizia</p>
+                        <p class="testoNotizia">Anticipo 40% dei trattamenti di integrazione salariale: chiarimenti</p>
+                    </div>
+                    <div class="notizie">
+                        <p class="titoloNotizia">Notizia</p>
+                        <p class="testoNotizia">Reddito di cittadinanza e Reddito di emergenza: due nuove guide aggiornate</p>
+                    </div>
+                    <div class="notizie">
+                        <p class="titoloNotizia">Notizia</p>
+                        <p class="testoNotizia">“Fuori dal Coro”: su immobili INPS rappresentazioni false e scorrette</p>
+                    </div>
                 </div>
-                <div class="notizie">
 
-                </div>
-                <div class="notizie">
-
-                </div> -->
         </div>
         <!-- fine container -->
                 <footer>

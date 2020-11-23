@@ -11,12 +11,16 @@ body {
 
 #container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     height: 80%;
     background-color: #00364d;
     padding-bottom: 36px;
 }
 
+.sezioneTitolo {
+    width: 100%;
+
+}
 .listaMail li {
     list-style-type: none;
     color:black;
@@ -88,12 +92,18 @@ body {
     font-weight: bold;
 }
 
-.titoloSezione {
+.sezioneTitolo {
     color: white;
-    /* align-self: flex-start; */
-    padding-left: 40px;
-    padding-top: 20px;
-    font-size:30px;
+/* align-self: flex-start; */
+padding-left: 40px;
+padding-top: 20px;
+background-color: #00364d;
+margin: 0;
+}
+
+.sezioneTitolo h1 {
+font-size: 30px;
+margin:0;
 }
 
 #titoloLista {
@@ -104,8 +114,11 @@ body {
 .sezioneEvidenza{
     background-image: url("https://www.inps.it/docallegatiNP/Mig/Immagini_News/prestazioni-covid-05.jpg");
     margin-top: 15px;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     margin-left: 40px;
+    width: 50%;
+
+
 }
 
 .mail{
@@ -113,12 +126,8 @@ body {
     width: 50%;
     margin-left: 40px;
     border-radius: 8px;
+    margin-top:40px;
 }
-
-/* .mail:hover {
-    border: 3px solid blue;
-    transition: 1s;
-} */
 
 .linea {
   width: 10px;
@@ -156,10 +165,30 @@ footer img {
     padding-right:20px;
 }
 
-.notizie {
-    width: 200px;
-    height: 100px;
-    background-color: red;
-    flex-direction: column;
+.sezioneNotizie{
+    width: 40%;
+    align-self: center;
 
+}
+
+.notizie {
+    width: 60%;
+    background-color: white;
+    flex-direction: column;
+    border:1px solid white;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.titoloNotizia {
+    color:#007db3;
+    font-size: 16px;
+    font-weight: bold;
+    padding:5px;
+}
+
+.testoNotizia {
+    padding: 5px;
+    font-size:16px;
+    font-weight: bold;
 }
